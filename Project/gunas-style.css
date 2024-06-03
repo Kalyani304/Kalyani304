@@ -1,0 +1,81 @@
+.banner{
+    height: 75vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(https://img.freepik.com/free-photo/top-view-cup-tea-with-black-tea-dried-flowers-dark-brown-background-tea-water-color-breakfast-biscuit-photo-drink-ceremony_140725-160818.jpg?size=626&ext=jpg&ga=GA1.1.1754412533.1706262976&semt=sph);
+
+}
+.content{
+    top: 40%;
+}
+
+
+
+.m1{
+    padding: 50px;
+}
+.t1{
+    width: 100%;
+    text-align: center;
+}
+.t1 p{
+    font-size: 27px;
+}
+.d1{
+    min-height: 100vh;
+    margin: 50px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.d1 div{
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.d1 div img{
+    display: block;
+    width: inherit;
+    transition: .5s;
+}
+.d1 div:hover img{
+    transform: scale(1.05);
+}
+.d1 div h2{
+    margin: 10px 0 10px 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+.d2{
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.d2 div{
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.d2 div img{
+    display: block;
+    width: inherit;
+}
+.d2 div h2{
+    margin: 70px 0 10px 0;
+    font-size: 40px;
+}
+.d2 div p{
+    margin: 10px 0 10px 0;
+    font-size: 25px;
+}
+.d2 div a{
+    text-decoration: none;
+}
